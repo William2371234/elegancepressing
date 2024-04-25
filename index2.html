@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            min-height: 100vh;
+        }
+        .header{
+            display: flex;
+            align-items: center;
+            color: white;
+            background: darkmagenta;
+            font-size: 32px;
+            font-weight: 900;
+            height: 72px;
+            padding: 0 16px;
+        }
+        .sidebar{
+            background: royalblue;
+            width: 300px;
+            display: flex;
+            
+            padding: 16px;
+          flex-shrink: 0;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+        }
+        li{
+            margin-bottom: 16px;
+        }
+        .body{
+            display: flex;
+            flex: 1;
+        }
+        .container{
+            display: flex;
+            padding: 32px;
+            padding-left: 230px;
+            flex-wrap: wrap;
+        }
+        .card{
+            border: 1px solid #eee;
+            border-radius: 4px;
+            margin: 16px;
+            width: 300px;
+            padding: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkmagenta;
+    background: #eee;
+    height: 72px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+}
+img{
+    height: 20px;
+    width: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">MAGIC PRESSING</div>
+    <div class="body">
+        <div class="sidebar">
+            <ul>
+         <a href=""><li>accueil</li></a>
+         <a href=""><li>services</li></a>
+         <a href=""><li>contact</li></a>
+         </ul>
+        </div>
+        <div class="container">
+            <div class="card"> <img src="img1.jpg" alt=" img1"> </div>
+            <div class="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quaerat qui iure ipsam maiores velit tempora, deleniti nesciunt fuga suscipit alias vero rem, corporis officia totam saepe excepturi odit ea.</div>
+            <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?</div>
+            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!</div>
+            <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?</div>
+            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!</div>
+        
+        </div>
+    </div>
+    <div class="footer">Copyright ©MAGIC PRESSING 2024 ❤️</div>
+</body>
+</html>

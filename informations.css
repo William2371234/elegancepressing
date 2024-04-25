@@ -1,0 +1,29 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(aquanettoyage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 280%;
+
+}
+img{
+    width: 350px;
+    border: 2Px ;
+    border-radius: 2%;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+    position: center;
+    margin: -30px 10px 10px 400px;
+}
+h1{
+    text-align: left;
+    text-shadow: 2px 4px 3px rgb(0, 0, 0);
+}
+section{
+    padding: 60px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
